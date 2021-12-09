@@ -1,5 +1,25 @@
 # reddit-seller-block
 
-Browsing Reddit ain't the same as it used to be since the introduction of many content sellers, usually promoting OnlyFans.
+Browsing Reddit isn't same as before. Too many OnlyFans.
 
-reddit-seller-block is a simple Python program to help clean up your feed, if you prefer a seller-free experience.
+`reddit-seller-block` is simple Python program to clean up feed, it will try to detect seller and block them.
+
+## Usage
+
+First, make Oauth scripting app, like in instruction below.
+
+https://redditclient.readthedocs.io/en/latest/oauth/
+
+Now, run the app.
+
+First need Python3. Then:
+
+```
+$ pip install praw
+```
+
+now run: (change out vars for your user/pass/id/secret)
+
+```
+$ python main.py $USERNAME $PASSWORD $CLIENT_ID $CLIENT_SECRET
+```
