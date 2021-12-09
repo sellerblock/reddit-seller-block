@@ -23,3 +23,9 @@ now run: (change out vars for your user/pass/id/secret)
 ```
 $ python main.py $USERNAME $PASSWORD $CLIENT_ID $CLIENT_SECRET
 ```
+
+There are many sellers, more than ever thought. Might want to run the program in a loop, every 30 min or so like this:
+
+```
+$ while true; do python main.py $USERNAME $PASSWORD $CLIENT_ID $CLIENT_SECRET; sleep 1800; done
+```
